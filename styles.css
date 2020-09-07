@@ -1,0 +1,66 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body {
+  background-color: #f0f0f0;
+  padding: 5vh 2vw;
+  font-family: "Raleway", sans-serif;
+  width: 96vw;
+  height: 90vh;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 10vh;
+}
+
+.title, .filter-container {
+  margin-bottom: 1rem;
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #364f6b;
+}
+
+.filterContent {
+  display: flex;
+  justify-content: flex-end;
+}
+.filterContent p {
+  font-size: 1.2rem;
+  color: #364f6b;
+  margin: 2rem 50px;
+}
+
+select:expand {
+  display: none;
+}
+
+#kind_food_selector {
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #364f6b;
+  border-radius: 1rem;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #364f6b;
+}
+
+#mapid {
+  height: 80vh;
+}
+
+.leaflet-popup-content {
+  color: #364f6b;
+}
+
+.leaflet-container {
+  font-size: 1.2rem;
+  
+}
+
+/*# sourceMappingURL=styles.css.map */
